@@ -26,9 +26,7 @@ SECRET_KEY = 'django-insecure-%lu_yqv2k5oshz$^6d=)noq2bu08&app^n6)yp3_#&5$cs0j-%
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'django-text-summarizer-production.up.railway.app',
-    '127.0.0.1',
-    'localhost'
+    'django-text-summarizer-production.up.railway.app'
 ]
 
 
