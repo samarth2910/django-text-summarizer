@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-%lu_yqv2k5oshz$^6d=)noq2bu08&app^n6)yp3_#&5$cs0j-%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'django-text-summarizer-production.up.railway.app',
+    '127.0.0.1',
+    'localhost'
+]
+
 
 
 # Application definition
