@@ -5,7 +5,7 @@ This project is an Extractive Text Summarizer that condenses long text into a co
 
 🔗 [Check it out here](https://django-text-summarizer-production.up.railway.app/)
 
-🚀 Features
+## 🚀 Features
 Automatically summarizes large text inputs
 
 Clean and responsive UI using vanilla CSS
@@ -14,7 +14,7 @@ Built-in Django form to process and display summaries
 
 Deployed and publicly accessible
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 Python 3
 
 Django (for backend + frontend rendering)
@@ -28,8 +28,8 @@ Railway (for deployment)
 ## 📦 Installation
 
 # Clone the repository
-git clone https://github.com/your-username/text-summarizer.git
-cd text-summarizer
+git clone https://github.com/samarth2910/django-text-summarizer.git
+cd summarizer
 
 # Create virtual environment
 python -m venv venv
