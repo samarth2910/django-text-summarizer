@@ -40,7 +40,9 @@ pip install -r requirements.txt
 
 # Run the app
 python manage.py migrate
+
 python manage.py runserver
+
 Then go to http://127.0.0.1:8000 in your browser.
 
 ## 🧠 How It Works
@@ -90,6 +92,7 @@ Add abstractive summarization (e.g., using BERT or T5)
 ## 🙋‍♂️ Author
 Samarth Shetty
 🎓 Final Year CSE (Data Science)
+
 🔗 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samarthshetty1/)
 
 
