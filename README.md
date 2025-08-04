@@ -1,4 +1,4 @@
-📝 Extractive Text Summarization (NLP + Django)
+## 📝 Extractive Text Summarization (NLP + Django)
 This project is an Extractive Text Summarizer that condenses long text into a concise summary by selecting the most important sentences — built using Python, Django, and pure CSS.
 
 ## 🌐 Live Demo
@@ -25,10 +25,8 @@ HTML + CSS (for UI styling)
 
 Railway (for deployment)
 
-📦 Installation
-bash
-Copy
-Edit
+## 📦 Installation
+
 # Clone the repository
 git clone https://github.com/your-username/text-summarizer.git
 cd text-summarizer
@@ -45,7 +43,7 @@ python manage.py migrate
 python manage.py runserver
 Then go to http://127.0.0.1:8000 in your browser.
 
-🧠 How It Works
+## 🧠 How It Works
 Text Preprocessing:
 
 Tokenizes the input into words and sentences
@@ -60,16 +58,19 @@ Summary Generation:
 
 Picks top-scoring sentences to form the final summary
 
-📁 Project Structure
-summarizer/
-├── summarizer/             # Django app with views, templates
-│   ├── templates/
-│   ├── static/             # Custom CSS styles
-│   └── views.py
-├── manage.py
-├── requirements.txt
-└── README.md
-✨ Example
+## 📁 Project Structure
+
+```bash
+summarizer/                      # Project root
+├── summarizer/                 # Main Django app
+│   ├── templates/              # HTML templates
+│   ├── static/                 # CSS and static files
+│   └── views.py                # Core view logic
+├── manage.py                   # Django entry point
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project documentation
+```
+## ✨ Example
 Input:
 
 Artificial Intelligence (AI) is transforming industries with applications like image recognition, voice assistants, and more. It uses algorithms and massive data to replicate human-like thinking and decision-making...
@@ -78,7 +79,7 @@ Summary Output:
 
 Artificial Intelligence (AI) is transforming industries with applications like image recognition, voice assistants, and more.
 
-✅ Future Ideas
+## ✅ Future Ideas
 Upload .txt or .pdf for summarization
 
 Add summary length control
@@ -86,7 +87,7 @@ Add summary length control
 Add abstractive summarization (e.g., using BERT or T5)
 
 
-🙋‍♂️ Author
+## 🙋‍♂️ Author
 Samarth Shetty
 🎓 Final Year CSE (Data Science)
 🔗 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samarthshetty1/)
