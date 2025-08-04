@@ -29,6 +29,7 @@ Railway (for deployment)
 
 # Clone the repository
 git clone https://github.com/samarth2910/django-text-summarizer.git
+
 cd summarizer
 
 # Create virtual environment
