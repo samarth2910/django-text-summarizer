@@ -46,17 +46,17 @@ python manage.py runserver
 Then go to http://127.0.0.1:8000 in your browser.
 
 ## 🧠 How It Works
-Text Preprocessing:
+**Text Preprocessing:**
 
 Tokenizes the input into words and sentences
 
-Filters out stopwords and punctuation
+**Filters out stopwords and punctuation
 
-Sentence Scoring:
+**Sentence Scoring:**
 
 Scores each sentence based on word frequency
 
-Summary Generation:
+**Summary Generation:**
 
 Picks top-scoring sentences to form the final summary
 
@@ -73,11 +73,11 @@ summarizer/                      # Project root
 └── README.md                   # Project documentation
 ```
 ## ✨ Example
-Input:
+**Input:**
 
 Artificial Intelligence (AI) is transforming industries with applications like image recognition, voice assistants, and more. It uses algorithms and massive data to replicate human-like thinking and decision-making...
 
-Summary Output:
+**Summary Output:**
 
 Artificial Intelligence (AI) is transforming industries with applications like image recognition, voice assistants, and more.
 
@@ -90,7 +90,7 @@ Add abstractive summarization (e.g., using BERT or T5)
 
 
 ## 🙋‍♂️ Author
-Samarth Shetty
+**Samarth Shetty**
 🎓 Final Year CSE (Data Science)
 
 🔗 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samarthshetty1/)
